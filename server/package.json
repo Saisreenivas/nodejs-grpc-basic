@@ -1,0 +1,16 @@
+{
+  "name": "grpc_poc",
+  "version": "1.0.0",
+  "description": "A Server Side implementation of gRPC using runtime compilation of proto3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Sai Sreenivas Addepalli",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.5.5",
+    "@grpc/proto-loader": "^0.6.9",
+    "google-protobuf": "^3.19.4"
+  }
+}
